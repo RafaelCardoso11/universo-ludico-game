@@ -1,0 +1,168 @@
+{
+    "data": [
+      {
+        "frase": "A organização de computadores refere-se à forma como os componentes de ______ interagem e são conectados para realizar operações.",
+        "lacuna": "hardware"
+      },
+      {
+        "frase": "______ é considerado o pai da computação moderna e desenvolveu a base teórica para a computação.",
+        "lacuna": "Alan Turing"
+      },
+      {
+        "frase": "O ______ foi o primeiro computador eletrônico digital, construído em 1946.",
+        "lacuna": "ENIAC"
+      },
+      {
+        "frase": "A Lei de ______ afirma que o número de transistores em um chip dobra a cada dois anos.",
+        "lacuna": "Moore"
+      },
+      {
+        "frase": "Os componentes principais de um computador são CPU, memória, dispositivos de entrada/saída e ______.",
+        "lacuna": "armazenamento"
+      },
+      {
+        "frase": "O ______ foi o primeiro computador comercial produzido nos EUA.",
+        "lacuna": "UNIVAC"
+      },
+      {
+        "frase": "A ______ é uma técnica de sobreposição de execução de instruções para aumentar o desempenho.",
+        "lacuna": "pipeline"
+      },
+      {
+        "frase": "Um processador ______ possui um conjunto reduzido de instruções para maior eficiência.",
+        "lacuna": "RISC"
+      },
+      {
+        "frase": "A Taxonomia de ______ classifica arquiteturas de computadores em SISD, SIMD, MISD e MIMD.",
+        "lacuna": "Flynn"
+      },
+      {
+        "frase": "A arquitetura von ______ introduziu a separação de memória e processamento, base da maioria dos computadores modernos.",
+        "lacuna": "Neumann"
+      },
+      {
+        "frase": "A ______ é a unidade central de processamento, o 'cérebro' do computador.",
+        "lacuna": "CPU"
+      },
+      {
+        "frase": "A memória ______ armazena dados temporários e perde seu conteúdo quando o computador é desligado.",
+        "lacuna": "RAM"
+      },
+      {
+        "frase": "A memória ______ guarda instruções permanentes e não perde dados quando o computador é desligado.",
+        "lacuna": "ROM"
+      },
+      {
+        "frase": "A ______ (Arithmetic Logic Unit) executa operações aritméticas e lógicas na CPU.",
+        "lacuna": "ALU"
+      },
+      {
+        "frase": "O ciclo de ______ é a sequência de operações que a CPU realiza para processar cada comando.",
+        "lacuna": "instrução"
+      },
+      {
+        "frase": "O ______ (Direct Memory Access) permite acesso direto à memória sem envolver a CPU.",
+        "lacuna": "DMA"
+      },
+      {
+        "frase": "No multiprocessamento ______, todos os processadores compartilham a mesma memória de forma equilibrada.",
+        "lacuna": "simétrico"
+      },
+      {
+        "frase": "A ______ permite que um sistema operacional execute múltiplos programas ao mesmo tempo.",
+        "lacuna": "multiprogramação"
+      },
+      {
+        "frase": "O ______ é o uso de mais de um processador em um único sistema para executar tarefas simultaneamente.",
+        "lacuna": "multiprocessamento"
+      },
+      {
+        "frase": "A memória ______ utiliza parte do armazenamento secundário para simular memória adicional.",
+        "lacuna": "virtual"
+      },
+      {
+        "frase": "A ______ é uma técnica de gerenciamento de memória que divide o espaço em páginas de tamanho fixo.",
+        "lacuna": "paginação"
+      },
+      {
+        "frase": "A memória ______ armazena dados frequentemente acessados pela CPU para reduzir o tempo de acesso.",
+        "lacuna": "cache"
+      },
+      {
+        "frase": "A linguagem de ______ é composta por instruções binárias que o hardware entende diretamente.",
+        "lacuna": "máquina"
+      },
+      {
+        "frase": "Os sistemas ______ são projetados para executar funções específicas dentro de um sistema maior.",
+        "lacuna": "embarcados"
+      },
+      {
+        "frase": "A ______ de memória organiza diferentes níveis com base na velocidade e custo.",
+        "lacuna": "hierarquia"
+      },
+      {
+        "frase": "Em uma arquitetura de memória ______, cada processador possui sua própria memória e se comunica via rede.",
+        "lacuna": "distribuída"
+      },
+      {
+        "frase": "A Era ______ foi a primeira era da computação, usando engrenagens e alavancas para cálculos.",
+        "lacuna": "Mecânica"
+      },
+      {
+        "frase": "A Era ______ utilizava relés e interruptores, como exemplificado pelo Z3 de Konrad Zuse em 1941.",
+        "lacuna": "Eletromecânica"
+      },
+      {
+        "frase": "A Era ______ da computação começou com o ENIAC em 1946.",
+        "lacuna": "Digital"
+      },
+      {
+        "frase": "______ Computing é o processamento distribuído próximo ao usuário, frequentemente usado em dispositivos IoT.",
+        "lacuna": "Fog"
+      },
+      {
+        "frase": "______ Computing é o processamento descentralizado que reduz latência, usado em carros autônomos.",
+        "lacuna": "Edge"
+      },
+      {
+        "frase": "______ Computing é uma rede de computadores compartilhando processamento, como o SETI@home.",
+        "lacuna": "Grid"
+      },
+      {
+        "frase": "No modelo ______ (SMP), todos os processadores compartilham memória e recursos de maneira equilibrada.",
+        "lacuna": "simétrico"
+      },
+      {
+        "frase": "______ (Multiple Instruction, Multiple Data) é o modelo onde vários processadores executam instruções diferentes.",
+        "lacuna": "MIMD"
+      },
+      {
+        "frase": "______ (Single Instruction, Multiple Data) é usado em GPUs, onde uma instrução é aplicada a vários dados.",
+        "lacuna": "SIMD"
+      },
+      {
+        "frase": "______ (Single Instruction, Single Data) é o modelo tradicional de computação sequencial.",
+        "lacuna": "SISD"
+      },
+      {
+        "frase": "O ______ é o componente da CPU que coordena todas as operações do sistema.",
+        "lacuna": "Controlador"
+      },
+      {
+        "frase": "Os ______ são memórias internas de alta velocidade dentro da CPU para armazenamento temporário.",
+        "lacuna": "Registradores"
+      },
+      {
+        "frase": "O problema de ______ ocorre quando a memória virtual é usada excessivamente, causando queda de desempenho.",
+        "lacuna": "thrashing"
+      },
+      {
+        "frase": "A ______ é uma técnica de memória que divide o espaço em segmentos lógicos de tamanhos variáveis.",
+        "lacuna": "segmentação"
+      },
+      {
+        "frase": "A computação em ______ baseia-se na virtualização e no uso eficiente de recursos de hardware remotos.",
+        "lacuna": "nuvem"
+      }
+    ]
+  }

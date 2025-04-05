@@ -1,0 +1,164 @@
+{
+    "quem_eu_sou": [
+      {
+        "dica": "Sou considerado o pai da computação moderna e desenvolvi a base teórica para computadores.",
+        "resposta": "Alan Turing"
+      },
+      {
+        "dica": "Fui o primeiro computador eletrônico digital, construído em 1946.",
+        "resposta": "ENIAC"
+      },
+      {
+        "dica": "Sou uma observação que diz que o número de transistores em um chip dobra a cada dois anos.",
+        "resposta": "Lei de Moore"
+      },
+      {
+        "dica": "Fui o primeiro computador comercial produzido nos EUA.",
+        "resposta": "UNIVAC"
+      },
+      {
+        "dica": "Fui a empresa que inventou o primeiro microprocessador (4004) em 1971.",
+        "resposta": "Intel"
+      },
+      {
+        "dica": "Sou a técnica que divide a execução de instruções em estágios para aumentar o desempenho.",
+        "resposta": "pipeline"
+      },
+      {
+        "dica": "Sou um processador com um conjunto reduzido de instruções para maior eficiência.",
+        "resposta": "RISC"
+      },
+      {
+        "dica": "Sou uma classificação de arquiteturas de computadores em SISD, SIMD, MISD e MIMD.",
+        "resposta": "Taxonomia de Flynn"
+      },
+      {
+        "dica": "Sou o modelo de arquitetura com separação de memória e processamento ainda usado em computadores modernos.",
+        "resposta": "arquitetura von Neumann"
+      },
+      {
+        "dica": "Sou o 'cérebro' do computador que processa instruções e executa operações.",
+        "resposta": "CPU"
+      },
+      {
+        "dica": "Sou o tipo de memória que armazena dados temporários e perco tudo quando o computador é desligado.",
+        "resposta": "RAM"
+      },
+      {
+        "dica": "Sou o tipo de memória que guarda instruções permanentes e não perco dados quando desligo.",
+        "resposta": "ROM"
+      },
+      {
+        "dica": "Sou a parte da CPU que executa operações aritméticas e lógicas.",
+        "resposta": "ALU"
+      },
+      {
+        "dica": "Sou a sequência de operações que a CPU realiza para processar cada instrução.",
+        "resposta": "ciclo de instrução"
+      },
+      {
+        "dica": "Sou a técnica que permite acesso direto à memória sem envolver a CPU.",
+        "resposta": "DMA"
+      },
+      {
+        "dica": "Sou o tipo de multiprocessador onde todos os processadores compartilham memória igualmente.",
+        "resposta": "SMP"
+      },
+      {
+        "dica": "Sou a capacidade de um sistema operacional executar vários programas ao mesmo tempo.",
+        "resposta": "multiprogramação"
+      },
+      {
+        "dica": "Sou o uso de mais de um processador em um único sistema para executar tarefas simultaneamente.",
+        "resposta": "multiprocessamento"
+      },
+      {
+        "dica": "Sou uma técnica que utiliza parte do armazenamento secundário para simular memória adicional.",
+        "resposta": "memória virtual"
+      },
+      {
+        "dica": "Sou uma técnica de gerenciamento de memória que divide o espaço em páginas de tamanho fixo.",
+        "resposta": "paginação"
+      },
+      {
+        "dica": "Sou o tipo de memória rápida que armazena dados frequentemente acessados pela CPU.",
+        "resposta": "cache"
+      },
+      {
+        "dica": "Sou uma linguagem que o hardware entende diretamente, formada por instruções binárias.",
+        "resposta": "linguagem de máquina"
+      },
+      {
+        "dica": "Sou um tipo de computador projetado para executar funções específicas dentro de um sistema maior.",
+        "resposta": "sistema embarcado"
+      },
+      {
+        "dica": "Sou a organização de diferentes níveis de memória com base na velocidade e custo.",
+        "resposta": "hierarquia de memória"
+      },
+      {
+        "dica": "Sou o modelo onde cada processador possui sua própria memória e se comunica com outros via rede.",
+        "resposta": "memória distribuída"
+      },
+      {
+        "dica": "Fui a primeira era da computação, usando engrenagens e alavancas para cálculos.",
+        "resposta": "Era Mecânica"
+      },
+      {
+        "dica": "Sou a segunda era da computação, usando relés e interruptores, como o Z3 de 1941.",
+        "resposta": "Era Eletromecânica"
+      },
+      {
+        "dica": "Sou a era moderna da computação, começando com o ENIAC em 1946.",
+        "resposta": "Era Digital"
+      },
+      {
+        "dica": "Sou o processamento distribuído próximo ao usuário, usado em dispositivos IoT.",
+        "resposta": "Fog Computing"
+      },
+      {
+        "dica": "Sou o processamento descentralizado que reduz latência, muito usado em carros autônomos.",
+        "resposta": "Edge Computing"
+      },
+      {
+        "dica": "Sou a rede de computadores compartilhando processamento, como o projeto SETI@home.",
+        "resposta": "Grid Computing"
+      },
+      {
+        "dica": "Sou o modelo de multiprocessamento usado em servidores empresariais, onde todos os processadores são iguais.",
+        "resposta": "sistema simétrico"
+      },
+      {
+        "dica": "Sou o modelo de computação paralela onde vários processadores executam instruções diferentes simultaneamente.",
+        "resposta": "MIMD"
+      },
+      {
+        "dica": "Sou o modelo de computação onde uma instrução é aplicada a vários dados simultaneamente, como em GPUs.",
+        "resposta": "SIMD"
+      },
+      {
+        "dica": "Sou o modelo tradicional de computação sequencial com uma instrução e um dado por vez.",
+        "resposta": "SISD"
+      },
+      {
+        "dica": "Sou a parte da CPU que coordena todas as operações do sistema.",
+        "resposta": "Controlador"
+      },
+      {
+        "dica": "Sou o armazenamento temporário de alta velocidade dentro da CPU.",
+        "resposta": "Registradores"
+      },
+      {
+        "dica": "Sou o problema que ocorre quando a memória virtual é usada excessivamente, causando queda de desempenho.",
+        "resposta": "thrashing"
+      },
+      {
+        "dica": "Sou a técnica de memória que divide o espaço em segmentos lógicos de tamanhos variáveis.",
+        "resposta": "segmentação"
+      },
+      {
+        "dica": "Sou a computação baseada na virtualização e no uso eficiente de recursos de hardware remotos.",
+        "resposta": "computação em nuvem"
+      }
+    ]
+  }

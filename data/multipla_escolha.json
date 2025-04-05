@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "pergunta": "Quem é considerado o pai da computação moderna?",
+      "alternativas": {
+        "a": "John von Neumann",
+        "b": "Alan Turing",
+        "c": "Charles Babbage",
+        "d": "Intel"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual foi o primeiro computador eletrônico digital?",
+      "alternativas": {
+        "a": "UNIVAC",
+        "b": "Z3",
+        "c": "ENIAC",
+        "d": "4004"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que a Lei de Moore estabelece?",
+      "alternativas": {
+        "a": "O número de transistores em um chip dobra a cada quatro anos",
+        "b": "O preço dos computadores cai pela metade a cada ano",
+        "c": "A velocidade dos processadores aumenta exponencialmente",
+        "d": "O número de transistores em um chip dobra a cada dois anos"
+      },
+      "resposta_correta": "d"
+    },
+    {
+      "pergunta": "Quem inventou o microprocessador?",
+      "alternativas": {
+        "a": "Intel",
+        "b": "IBM",
+        "c": "Apple",
+        "d": "Microsoft"
+      },
+      "resposta_correta": "a"
+    },
+    {
+      "pergunta": "Qual a contribuição de John von Neumann para a computação?",
+      "alternativas": {
+        "a": "Criou a primeira linguagem de programação",
+        "b": "Inventou o primeiro microprocessador",
+        "c": "Introduziu a arquitetura com separação de memória e processamento",
+        "d": "Desenvolveu o primeiro sistema operacional"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que é pipeline em arquitetura de computadores?",
+      "alternativas": {
+        "a": "Um tipo de memória cache",
+        "b": "Técnica de sobreposição de execução de instruções",
+        "c": "Um tipo de barramento de dados",
+        "d": "Um sistema de refrigeração para processadores"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "O que é um processador RISC?",
+      "alternativas": {
+        "a": "Processador com um conjunto completo de instruções",
+        "b": "Processador com um conjunto reduzido de instruções",
+        "c": "Processador voltado para sistemas embarcados",
+        "d": "Processador com alta capacidade de processamento paralelo"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Quais são as três partes principais de um sistema de computação?",
+      "alternativas": {
+        "a": "Software, Hardware e Firmware",
+        "b": "Entrada, Processamento e Saída",
+        "c": "CPU, Memória e Dispositivos de E/S",
+        "d": "Processador, Placa-mãe e Periféricos"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual é a diferença entre memória RAM e ROM?",
+      "alternativas": {
+        "a": "A RAM é mais rápida e a ROM é mais lenta",
+        "b": "A RAM armazena dados temporários e a ROM armazena instruções permanentes",
+        "c": "A RAM é não-volátil e a ROM é volátil",
+        "d": "A RAM é usada para armazenamento em massa e a ROM para processamento"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Quais são os componentes da Unidade Central de Processamento (CPU)?",
+      "alternativas": {
+        "a": "Memória, Cache e Barramento",
+        "b": "Microprocessador, Cooler e Energia",
+        "c": "Controlador, ALU e Registradores",
+        "d": "Entrada, Processamento e Saída"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que é o ciclo de instrução em uma CPU?",
+      "alternativas": {
+        "a": "O tempo que leva para fabricar um processador",
+        "b": "A sequência de operações para processar cada instrução (busca, decodificação, execução e gravação)",
+        "c": "O tempo entre ligar e desligar o computador",
+        "d": "A velocidade máxima que o processador pode atingir"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual sistema permite transferência direta de dados para a memória sem envolver a CPU?",
+      "alternativas": {
+        "a": "I/O Programado",
+        "b": "I/O por Interrupção",
+        "c": "DMA (Acesso Direto à Memória)",
+        "d": "Pipeline"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual dos seguintes NÃO é um tipo de multiprocessador segundo o material?",
+      "alternativas": {
+        "a": "Sistemas Simétricos (SMP)",
+        "b": "Sistemas Assimétricos (AMP)",
+        "c": "Sistemas Híbridos (HMP)",
+        "d": "Sistemas de Processamento Maciçamente Paralelo (MPP)"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "De acordo com a Taxonomia de Flynn, qual classificação representa um único fluxo de instruções aplicado a múltiplos dados?",
+      "alternativas": {
+        "a": "SISD",
+        "b": "SIMD",
+        "c": "MISD",
+        "d": "MIMD"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Em qual arquitetura todos os processadores compartilham a mesma memória?",
+      "alternativas": {
+        "a": "Memória distribuída",
+        "b": "Memória dedicada",
+        "c": "Memória compartilhada",
+        "d": "Memória virtual"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que é multiprogramação?",
+      "alternativas": {
+        "a": "Uso de mais de um processador para executar tarefas",
+        "b": "Capacidade de executar múltiplos programas ao mesmo tempo em uma única CPU",
+        "c": "Técnica de programação com múltiplos paradigmas",
+        "d": "Sistema que permite múltiplos usuários simultaneamente"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "O que é memória virtual?",
+      "alternativas": {
+        "a": "Um tipo especial de RAM mais rápida que a convencional",
+        "b": "Uma técnica que utiliza parte do armazenamento secundário para simular memória adicional",
+        "c": "Uma memória física instalada em placas de vídeo",
+        "d": "Um conceito teórico que não é implementado em computadores modernos"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "O que é paginação em gerenciamento de memória?",
+      "alternativas": {
+        "a": "Técnica que divide o espaço de endereçamento em páginas de tamanho fixo",
+        "b": "Sistema que numera sequencialmente os dados na memória",
+        "c": "Processo de impressão de conteúdo em páginas separadas",
+        "d": "Método de compressão de dados na memória RAM"
+      },
+      "resposta_correta": "a"
+    },
+    {
+      "pergunta": "Qual o nome do primeiro computador comercial produzido nos EUA?",
+      "alternativas": {
+        "a": "ENIAC",
+        "b": "IBM PC",
+        "c": "UNIVAC",
+        "d": "Apple I"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual técnica de acesso a periféricos notifica a CPU quando o periférico está pronto?",
+      "alternativas": {
+        "a": "I/O Programado",
+        "b": "I/O por Interrupção",
+        "c": "DMA",
+        "d": "Cache I/O"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual é o nível mais rápido na hierarquia de memória?",
+      "alternativas": {
+        "a": "Memória Principal (RAM)",
+        "b": "Cache L3",
+        "c": "Armazenamento Secundário",
+        "d": "Registradores"
+      },
+      "resposta_correta": "d"
+    },
+    {
+      "pergunta": "O que é organização de computadores?",
+      "alternativas": {
+        "a": "A forma como os componentes de hardware interagem",
+        "b": "O conjunto de regras para programação",
+        "c": "O método de estruturar o sistema operacional",
+        "d": "A disposição física dos equipamentos em um datacenter"
+      },
+      "resposta_correta": "a"
+    },
+    {
+      "pergunta": "O que é arquitetura de computadores?",
+      "alternativas": {
+        "a": "O design físico do gabinete e componentes",
+        "b": "Os aspectos funcionais e o design lógico de um sistema computacional",
+        "c": "O conjunto de especificações da placa-mãe",
+        "d": "A organização dos cabos e fontes de alimentação"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual foi o primeiro microprocessador criado pela Intel?",
+      "alternativas": {
+        "a": "8086",
+        "b": "Pentium",
+        "c": "4004",
+        "d": "80386"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Na arquitetura de von Neumann, onde ficam armazenados os dados e instruções?",
+      "alternativas": {
+        "a": "Em memórias separadas",
+        "b": "Apenas nos registradores",
+        "c": "Na mesma memória",
+        "d": "Apenas na ALU"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que diferencia as gerações de computadores?",
+      "alternativas": {
+        "a": "Apenas o tamanho físico das máquinas",
+        "b": "A evolução dos componentes: válvulas, transistores, circuitos integrados e microprocessadores",
+        "c": "A velocidade do clock do processador",
+        "d": "O tipo de sistema operacional utilizado"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual das opções NÃO é um exemplo de arquitetura baseada em redes?",
+      "alternativas": {
+        "a": "Grid Computing",
+        "b": "Fog Computing",
+        "c": "Edge Computing",
+        "d": "Core Computing"
+      },
+      "resposta_correta": "d"
+    },
+    {
+      "pergunta": "Em qual era da evolução da computação o ENIAC se encaixa?",
+      "alternativas": {
+        "a": "Era Mecânica",
+        "b": "Era Eletromecânica",
+        "c": "Era Digital",
+        "d": "Era Quântica"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual é a principal limitação da segmentação de memória?",
+      "alternativas": {
+        "a": "Fragmentação externa",
+        "b": "Velocidade reduzida",
+        "c": "Incompatibilidade com sistemas modernos",
+        "d": "Consumo excessivo de energia"
+      },
+      "resposta_correta": "a"
+    },
+    {
+      "pergunta": "Qual desvantagem da memória virtual?",
+      "alternativas": {
+        "a": "Custos elevados de implementação",
+        "b": "Incompatibilidade com sistemas operacionais modernos",
+        "c": "Acesso mais lento que a RAM",
+        "d": "Necessidade de hardware especializado"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "O que representa MIMD na Taxonomia de Flynn?",
+      "alternativas": {
+        "a": "Múltiplos fluxos de instruções em um único fluxo de dados",
+        "b": "Um único fluxo de instruções e dados",
+        "c": "Um único fluxo de instruções aplicado a múltiplos dados",
+        "d": "Múltiplos fluxos de instruções e dados"
+      },
+      "resposta_correta": "d"
+    },
+    {
+      "pergunta": "Qual a principal característica dos sistemas embarcados?",
+      "alternativas": {
+        "a": "São projetados para executar funções específicas dentro de um sistema maior",
+        "b": "São sempre conectados à internet",
+        "c": "Utilizam apenas processadores CISC",
+        "d": "Sempre possuem interface gráfica"
+      },
+      "resposta_correta": "a"
+    },
+    {
+      "pergunta": "Em qual tipo de multiprocessador um processador gerencia as tarefas enquanto os demais realizam a computação?",
+      "alternativas": {
+        "a": "Sistemas Simétricos (SMP)",
+        "b": "Sistemas Assimétricos (AMP)",
+        "c": "Sistemas MIMD",
+        "d": "Sistemas SIMD"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual é a função da Unidade de Controle em uma CPU?",
+      "alternativas": {
+        "a": "Realizar operações matemáticas e lógicas",
+        "b": "Armazenar dados temporariamente",
+        "c": "Interpretar instruções e gerenciar a execução",
+        "d": "Gerenciar a comunicação com dispositivos externos"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual componente da CPU realiza operações matemáticas e lógicas?",
+      "alternativas": {
+        "a": "Registradores",
+        "b": "Unidade de Controle",
+        "c": "Unidade Lógica e Aritmética",
+        "d": "Cache"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual é o principal problema que pode ocorrer em um sistema com excesso de uso de memória virtual?",
+      "alternativas": {
+        "a": "Overclock",
+        "b": "Thrashing",
+        "c": "Underclock",
+        "d": "Fragmentação irreversível"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "O que é um computador paralelo?",
+      "alternativas": {
+        "a": "Um computador com múltiplos monitores",
+        "b": "Um sistema que utiliza múltiplos processadores para cálculos simultâneos",
+        "c": "Um computador que executa apenas um programa por vez",
+        "d": "Um computador que usa apenas memória RAM"
+      },
+      "resposta_correta": "b"
+    },
+    {
+      "pergunta": "Qual é a principal vantagem da memória cache?",
+      "alternativas": {
+        "a": "Grande capacidade de armazenamento",
+        "b": "Baixo custo de implementação",
+        "c": "Redução do tempo de acesso a dados frequentes",
+        "d": "Não utiliza energia quando o computador está desligado"
+      },
+      "resposta_correta": "c"
+    },
+    {
+      "pergunta": "Qual era da computação utilizava dispositivos mecânicos como a Pascalina?",
+      "alternativas": {
+        "a": "Era Digital",
+        "b": "Era Eletromecânica",
+        "c": "Era Mecânica",
+        "d": "Era Moderna"
+      },
+      "resposta_correta": "c"
+    }
+  ]
+}

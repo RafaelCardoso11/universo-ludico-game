@@ -1,5 +1,6 @@
 import { useGame } from "@/contexts/GameContext";
 import React from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   View,
   Text,
@@ -20,9 +21,27 @@ const colors = [
 
 const ColorSelectionScreen: React.FC = () => {
   const { players, currentPlayerIndex } = useGame();
-
+  const navigation = useNavigation();
   const selectColor = (color: string) => {
     console.log(`Cor escolhida: ${color}`);
+    switch (color) {
+      case "AMARELO":
+        console.log("Selecionou o AMARELO");
+        break;
+      case "VERMELHO":
+        console.log("Selecionou o VERMELHO");
+        break;
+      case "ROXO":
+        navigation.navigate("pranks/complete-a-lacuna");
+
+        break;
+      case "BURACO NEGRO":
+        console.log("Selecionou o BURACO NEGRO");
+        break;
+      default:
+        console.log("Nenhuma das opções acima selecionada");
+        break;
+    }
   };
 
   const selectNone = () => {

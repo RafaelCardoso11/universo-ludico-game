@@ -39,6 +39,7 @@ export default function RootLayout() {
           <Stack.Screen name="(tabs)" options={{ title: "Cadastro de jogadores" }} />
           <Stack.Screen name="rollDice" options={{ title: "Jogar o Dado" }} />
           <Stack.Screen name="colorSelection" options={{ title: "Selecione a cor" }} />
+          <Stack.Screen name="pranks" options={{ title: "Selecione a cor" }} />
           <Stack.Screen name="+not-found" />
         </Stack>
       </ThemeProvider>

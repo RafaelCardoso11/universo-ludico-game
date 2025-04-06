@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   View,
   Text,
@@ -10,10 +11,13 @@ import {
 const frasesData = require("../../data/resposta_correta.json").data;
 
 export default function CompleteALacunaScreen() {
+  const navigation = useNavigation();
   const [resposta, setResposta] = useState("");
   const [acertou, setAcertou] = useState<boolean | null>(null);
 
-  const fraseAtual = frasesData[Math.floor(Math.random() * frasesData.length)];
+  const [fraseAtual] = useState(
+    frasesData[Math.floor(Math.random() * frasesData.length)]
+  );
 
   const verificarResposta = () => {
     const correta = fraseAtual.lacuna.toLowerCase().trim();
@@ -52,9 +56,22 @@ export default function CompleteALacunaScreen() {
       )}
 
       {acertou !== null && (
-        <Text style={[styles.feedback, { color: acertou ? "green" : "red" }]}>
-          {acertou ? "✅ Resposta correta!" : "❌ Resposta incorreta."}
-        </Text>
+        <>
+          <Text style={[styles.feedback, { color: acertou ? "green" : "red" }]}>
+            {acertou ? "✅ Resposta correta!" : "❌ Resposta incorreta."}
+          </Text>
+
+          <TouchableOpacity
+            style={styles.nextButton}
+            onPress={() =>
+              navigation.navigate(acertou ? "../rollDice" : "../(tabs)/index")
+            }
+          >
+            <Text style={styles.nextButtonText}>
+              {acertou ? "Ir para o Dado" : "Próximo Jogador"}
+            </Text>
+          </TouchableOpacity>
+        </>
       )}
     </View>
   );

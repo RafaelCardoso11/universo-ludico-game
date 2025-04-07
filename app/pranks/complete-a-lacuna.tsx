@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
+import { useGame } from "../../contexts/GameContext";
 import {
   View,
   Text,
@@ -7,16 +8,19 @@ import {
   TouchableOpacity,
   StyleSheet,
   Alert,
+  ImageBackground,
 } from "react-native";
+
 const frasesData = require("../../data/resposta_correta.json").data;
 
 export default function CompleteALacunaScreen() {
+  const { nextPlayer } = useGame();
   const navigation = useNavigation();
+
   const [resposta, setResposta] = useState("");
   const [acertou, setAcertou] = useState<boolean | null>(null);
-
-  const [fraseAtual] = useState(
-    frasesData[Math.floor(Math.random() * frasesData.length)]
+  const [fraseAtual, setFraseAtual] = useState(
+    () => frasesData[Math.floor(Math.random() * frasesData.length)]
   );
 
   const verificarResposta = () => {
@@ -32,68 +36,82 @@ export default function CompleteALacunaScreen() {
     setAcertou(resultado);
   };
 
+  const proximaRodada = () => {
+    if (!acertou) nextPlayer();
+    setResposta("");
+    setAcertou(null);
+    setFraseAtual(frasesData[Math.floor(Math.random() * frasesData.length)]);
+    navigation.navigate("rollDice");
+  };
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Complete a lacuna</Text>
+    <ImageBackground
+      source={require("../../assets/images/space-background.png")}
+      style={styles.background}
+      resizeMode="cover"
+    >
+      <View style={styles.overlay}>
+        <Text style={styles.title}>Complete a lacuna</Text>
 
-      <Text style={styles.frase}>
-        {fraseAtual.frase?.replace(
-          "______",
-          fraseAtual.lacuna.replace(/./g, "_")
-        )}
-      </Text>
+        <Text style={styles.frase}>
+          {fraseAtual.frase?.replace(
+            "______",
+            fraseAtual.lacuna.replace(/./g, "_")
+          )}
+        </Text>
 
-      <TextInput
-        style={styles.input}
-        placeholder="Digite sua resposta aqui"
-        value={resposta}
-        onChangeText={setResposta}
-      />
-      {acertou === null && (
-        <TouchableOpacity style={styles.button} onPress={verificarResposta}>
-          <Text style={styles.buttonText}>Verificar</Text>
-        </TouchableOpacity>
-      )}
+        <TextInput
+          style={styles.input}
+          placeholder="Digite sua resposta aqui"
+          value={resposta}
+          onChangeText={setResposta}
+          placeholderTextColor="#aaa"
+        />
 
-      {acertou !== null && (
-        <>
-          <Text style={[styles.feedback, { color: acertou ? "green" : "red" }]}>
-            {acertou ? "✅ Resposta correta!" : "❌ Resposta incorreta."}
-          </Text>
-
-          <TouchableOpacity
-            style={styles.nextButton}
-            onPress={() =>
-              navigation.navigate(acertou ? "../rollDice" : "../(tabs)/index")
-            }
-          >
-            <Text style={styles.nextButtonText}>
-              {acertou ? "Ir para o Dado" : "Próximo Jogador"}
-            </Text>
+        {acertou === null ? (
+          <TouchableOpacity style={styles.button} onPress={verificarResposta}>
+            <Text style={styles.buttonText}>Verificar</Text>
           </TouchableOpacity>
-        </>
-      )}
-    </View>
+        ) : (
+          <>
+            <Text
+              style={[
+                styles.feedback,
+                { color: acertou ? "lightgreen" : "#f66" },
+              ]}
+            >
+              {acertou ? "✅ Resposta correta!" : "❌ Resposta incorreta."}
+            </Text>
+
+            <TouchableOpacity style={styles.nextButton} onPress={proximaRodada}>
+              <Text style={styles.nextButtonText}>
+                {acertou ? "Ir para o Dado" : "Próximo Jogador"}
+              </Text>
+            </TouchableOpacity>
+          </>
+        )}
+      </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
-  feedback: {
-    fontSize: 18,
-    textAlign: "center",
-    marginVertical: 10,
-    fontWeight: "bold",
+  background: {
+    flex: 1,
+    width: "100%",
+    height: "100%",
   },
-  container: {
+  overlay: {
     flex: 1,
     padding: 20,
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
   },
   title: {
     fontSize: 26,
     fontWeight: "bold",
     textAlign: "center",
+    color: "#fff",
     marginBottom: 30,
   },
   frase: {
@@ -101,6 +119,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginBottom: 20,
     lineHeight: 28,
+    color: "#fff",
   },
   input: {
     borderWidth: 1,
@@ -109,6 +128,7 @@ const styles = StyleSheet.create({
     padding: 12,
     marginBottom: 20,
     fontSize: 16,
+    backgroundColor: "#fff",
   },
   button: {
     backgroundColor: "#4caf50",
@@ -120,6 +140,12 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     fontSize: 18,
+  },
+  feedback: {
+    fontSize: 18,
+    textAlign: "center",
+    marginVertical: 10,
+    fontWeight: "bold",
   },
   nextButton: {
     backgroundColor: "#2196f3",
